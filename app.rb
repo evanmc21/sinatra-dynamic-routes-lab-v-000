@@ -11,4 +11,5 @@ class App < Sinatra::Base
     @num = params[:num]
     @num.to_i
     "#{@num.to_s.square}"
+  end
 end
